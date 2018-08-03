@@ -108,20 +108,20 @@
 
 
 
-  <meta name="description" content="JavaScript中的变量对象与堆栈JavaScript中并没有严格意义上区分栈内存(FILO)与堆内存(FIFO)。 javascript执行上下文时会产生变量对象。一般变量对象存在堆内存中。为便于理解，将其与堆内存区别开来 1.变量对象与基本数据类型基本数据类型(undefined, Null, Number, String, Boolean)往往直接保存在变量对象中。基础数据类型都是按值访">
+  <meta name="description" content="JavaScript中的变量对象与堆栈JavaScript中并没有严格意义上区分栈内存(FILO)与堆内存(FIFO)。 javascript执行上下文时会产生变量对象。一般变量对象存在堆内存中。为便于理解，将其与堆内存区别开来">
 <meta name="keywords" content="javascript,stack">
 <meta property="og:type" content="article">
 <meta property="og:title" content="JavaScript中的变量对象与堆栈">
 <meta property="og:url" content="https://shsgear.github.io/2018/08/03/stack/index.html">
 <meta property="og:site_name" content="Shsgear&#39;s Blog">
-<meta property="og:description" content="JavaScript中的变量对象与堆栈JavaScript中并没有严格意义上区分栈内存(FILO)与堆内存(FIFO)。 javascript执行上下文时会产生变量对象。一般变量对象存在堆内存中。为便于理解，将其与堆内存区别开来 1.变量对象与基本数据类型基本数据类型(undefined, Null, Number, String, Boolean)往往直接保存在变量对象中。基础数据类型都是按值访">
+<meta property="og:description" content="JavaScript中的变量对象与堆栈JavaScript中并没有严格意义上区分栈内存(FILO)与堆内存(FIFO)。 javascript执行上下文时会产生变量对象。一般变量对象存在堆内存中。为便于理解，将其与堆内存区别开来">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="https://shsgear.github.io/images/stack1.png">
 <meta property="og:image" content="https://shsgear.github.io/images/stack2.png">
-<meta property="og:updated_time" content="2018-08-03T09:06:44.620Z">
+<meta property="og:updated_time" content="2018-08-03T09:46:11.304Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="JavaScript中的变量对象与堆栈">
-<meta name="twitter:description" content="JavaScript中的变量对象与堆栈JavaScript中并没有严格意义上区分栈内存(FILO)与堆内存(FIFO)。 javascript执行上下文时会产生变量对象。一般变量对象存在堆内存中。为便于理解，将其与堆内存区别开来 1.变量对象与基本数据类型基本数据类型(undefined, Null, Number, String, Boolean)往往直接保存在变量对象中。基础数据类型都是按值访">
+<meta name="twitter:description" content="JavaScript中的变量对象与堆栈JavaScript中并没有严格意义上区分栈内存(FILO)与堆内存(FIFO)。 javascript执行上下文时会产生变量对象。一般变量对象存在堆内存中。为便于理解，将其与堆内存区别开来">
 <meta name="twitter:image" content="https://shsgear.github.io/images/stack1.png">
 
 
@@ -385,7 +385,7 @@
                 
               
 
-              <time title="创建时间：2018-08-03 15:47:05 / 修改时间：17:06:44" itemprop="dateCreated datePublished" datetime="2018-08-03T15:47:05+08:00">2018-08-03</time>
+              <time title="创建时间：2018-08-03 15:47:05 / 修改时间：17:46:11" itemprop="dateCreated datePublished" datetime="2018-08-03T15:47:05+08:00">2018-08-03</time>
             
 
             
@@ -425,6 +425,7 @@
       
         <h1 id="JavaScript中的变量对象与堆栈"><a href="#JavaScript中的变量对象与堆栈" class="headerlink" title="JavaScript中的变量对象与堆栈"></a>JavaScript中的变量对象与堆栈</h1><p>JavaScript中并没有严格意义上区分栈内存(FILO)与堆内存(FIFO)。</p>
 <p>javascript执行上下文时会产生变量对象。一般变量对象存在堆内存中。为便于理解，将其与堆内存区别开来</p>
+<a id="more"></a>
 <h2 id="1-变量对象与基本数据类型"><a href="#1-变量对象与基本数据类型" class="headerlink" title="1.变量对象与基本数据类型"></a>1.变量对象与基本数据类型</h2><p>基本数据类型(<code>undefined</code>, <code>Null</code>, <code>Number</code>, <code>String</code>, <code>Boolean</code>)往往直接保存在变量对象中。基础数据类型都是按值访问，因此我们可以直接操作保存在变量中的实际的值。</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> a = <span class="number">1</span>;</span><br><span class="line"><span class="keyword">let</span> b = a;</span><br><span class="line">b = <span class="number">2</span>;</span><br></pre></td></tr></table></figure>
 <p><img src="/images/stack1.png" alt="image"></p>
